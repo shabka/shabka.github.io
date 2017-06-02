@@ -1,347 +1,340 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	    <meta name="viewport" content="width=device-width, initial-scale=1">
-	    <meta name="description" content="">
-	    <meta name="author" content="">
-	    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-	    <link rel="stylesheet" type="text/css" href="assets/font-awesome/css/font-awesome.min.css">
-	    <link rel="stylesheet" type="text/css" href="assets/ionicon/css/ionicons.min.css">
+<html lang="en">
 
-	    <!-- Google fonts -->
-	    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i" rel="stylesheet">
-	    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,600,700" rel="stylesheet">
+<head>
 
-	    <!-- Owl Carousel Assets -->
-	    <link rel="stylesheet" href="assets/css/owl.carousel.css">
-	    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-		<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-		<!-- Custom  Design assets -->
-		<link rel="stylesheet" type="text/css" href="assets/css/main.css">
-		<!-- <link rel="stylesheet" type="text/css" href="assets/css/media.css"> -->
-			<title>Apptyt</title>
-	</head>
+    <title>Apptyt</title>
 
-	<body>
-	<!-- It's for the click in body -->
-		<!-- <div class="overlay" id="overlay" onclick="closeNav()"></div> -->
-		<!-- This menu will be shown after scrolling -->
+    <!-- Bootstrap Core CSS -->
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-		 <nav id="nav" class="custom-menu navbar navbar-inverse navbar-fixed-top">
-			    <div class="container">
-				    <div class="col-md-6 col-xs-6 craft-bar">
-							<a href="index.html"><img src="assets/icon/apptytword_white.png"></a>
-					</div>
-	                <div class="col-lg-6 col-xs-6 col-sm-6 col-md-6 craft-bar text-right">
-	                    <div class="main" id="main">
-	                      <a onclick="openNav()">
-								<img class="zoom-act" src="assets/icon/menu.png">
-							</a>
-	                    </div> 
-	                </div>
-				</div>
-			</nav>  
-			<!--This is the sidenav bar  -->
-			<div id="mySidenav" class="sidenav text-center">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a><br>
-                <a href="#head">Home</a><hr>
-                <a href="#explore">Explore</a><hr>
-                <a href="#testimonial-section">Testimonial</a><hr>
-				<a href="#user-features">Features</a><hr>
-				<a href="#newsletter">Contact us</a>              
+    <!-- Custom Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="lib/simple-line-icons/css/simple-line-icons.css">
+    <link rel="stylesheet" href="lib/device-mockups/device-mockups.min.css">
+
+    <!-- Theme CSS -->
+    <link href="css/new-age.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top">
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Apptyt</a>
             </div>
-		<!-- Head section taking full device height -->
-		<section id="head" class="head">
-		    <div class="blur">   <!-- Blur div is for bluring the bacground image -->
-				<div class="container">
-					<!-- <div class="row menu-bar"> 
-						<div class="col-md-6 col-xs-6">
-							<a href="index.html"><img src="assets/icon/logo.png"></a>
-						</div>
-						<div class="col-lg-6 col-xs-6 col-sm-6 col-md-6 text-right">
-		                    <div class="main" id="main">
-		                      <a onclick="openNav()">
-									<img src="assets/icon/menu.png">
-								</a>
-		                    </div> 
-		                </div>
-					</div> -->
-					<div class="row head-body">
-						<div class="col-md-7 col-xs-12 head-items">
-							<h1>Modernizing the dining experience</h1>
-							<!--<p class=" fun-text">Modernizing the dining experience</p>-->
-							<a href="#" class="btn craft-btn">
-								<span class="fa fa-apple"></span>
-								<div class="craft-btn-content">
-									<h6>Download for</h6>
-									<h4>Apple iOS</h4>
-								</div>
-							</a>
-							<a href="#" class="btn craft-btn">
-								<span class="fa fa-android"></span>
-								<div class="craft-btn-content">
-									<h6>Download for</h6>
-									<h4>Android</h4>
-								</div>
-							</a>
-						</div>
-						<div class="col-md-4 col-xs-12">
-							<img class="img-responsive" src="assets/img/phone.png">	
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- This is the feature section after the head-->
-		<section id="explore" class="section explore-mindcraft">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6 col-xs-12 explore">
-							<h2 style="color:#fd5c63">The best of both worlds</h2>
-							<p>
-							Apptyt provides restaurant customers with a hassle free dining experience by offering them the ability to have full control over their order using a simple and elegant interface.<br>
-							It also provides restaurants with a solution that will guarantee both customer loyalty as well as a boo and profitst in revenue.
-							</p>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- This is explore mind craft section -->
-		<!--<section id="features" class="section explore-mindcraft">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6 col-xs-12 explore">
-							<h2 style="color:#e1666a">For customers</h2>
-					<div class="col-md-6 col-xs-12 user-interface-blocks">
-						<div class="row interface-block">
-								<div class="col-md-2 col-xs-4 icon-circle">	
-									<img class="img-responsive" src="assets/icon/My place.png">
-								</div>
-								<div class="col-md-8 col-xs-6 para-zom">
-									<h4>Choose your restaurant</h4>
-									<p>Broswe multiple restaurants and get information about them such as their menu</p>
-								</div>
-						</div>
 
-						<div class="row interface-block">
-								<div class="col-md-2 col-xs-4 icon-circle">	
-									<img class="img-responsive" src="assets/icon/on the go.png">
-								</div>
-								<div class="col-md-8 col-xs-6 para-zom">
-									<h4>Quick ordering</h4>
-									<p>Customize your order on your smartphone and pay directly through the app</p>
-								</div>
-						</div>
-					</div>
-					</div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#download">Download</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#features">Features</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#newsletter">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
 
-					<div class="col-md-6 col-xs-12 explore">
-							<h2 style="color:#e1666a">For restaurants</h2>
-					<div class="col-md-6 col-xs-12 user-interface-blocks">
-						<div class="row interface-block">
-								<div class="col-md-2 col-xs-4 icon-circle">	
-									<img class="img-responsive" src="assets/icon/Socially connect.png">
-								</div>
-								<div class="col-md-8 col-xs-6 para-zom">
-									<h4>Reduce staff cost</h4>
-									<p>Remove the need for extra employees and increase the productivity of current employees</p>
-								</div>
-						</div>
+    <header>
+        <div class="blur"> 
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-7">
+                    <div class="header-content">
+                        <div class="header-content-inner">
+                            <h1 style="font-weight: 370">Convenient and swift with every dish</h1>
+                            <a href="#" class="btn craft-btn">
+                                <span class="fa fa-apple"></span>
+                                <div class="craft-btn-content">
+                                    <h6>Download for</h6>
+                                    <h4>Apple iOS</h4>
+                                </div>
+                            </a>
+                            <a href="#" class="btn craft-btn">
+                                <span class="fa fa-android"></span>
+                                <div class="craft-btn-content">
+                                    <h6>Download for</h6>
+                                    <h4>Android</h4>
+                                </div>
+                            </a>
+                            <h2 style="font-weight: 370;margin-bottom: 20px;margin-top:25px">If you are a restaurant owner</h2>
+                            <a href="#newsletter" class="btn btn-outline btn-xl page-scroll">Request a demo!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-5">
+                    <div class="device-container">
+                        <div class="device-mockup iphone6_plus portrait white">
+                            <div class="device">
+                                <div class="screen">
+                                    <img src="img/demo-screen-1.jpg" class="img-responsive" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </header>
 
-						<div class="row interface-block">
-								<div class="col-md-2 col-xs-4 icon-circle">	
-									<img class="img-responsive" src="assets/icon/graph chart increasing.png">
-								</div>
-								<div class="col-md-8 col-xs-6 para-zom">
-									<h4>Analytics</h4>
-									<p>Obtain valuable data that will increase your restaurant's profit</p>
-								</div>
-						</div>
-					</div>
-					</div>
-				</div>
-			</div>
-		</section> -->
-		<!-- Testimonial section -->
-		<section id="testimonial-section" class="testimonial">
-			<div class="blur">
-				<h2>TESTIMONIAL</h2>
-				<div class="owl-carousel owl-theme" id="testimonial">
-				    <div class="carousel">
-				    	<div class="carousel-view">
-			      		<p class=" fun-text">“I love Apptyt ! I highly recommend it”</p>
-			      		<h5>ERIC CLAPTION</h5>
-			      		<ul>
-			      			<li><i class="fa fa-star"></i></li>
-			      			<li><i class="fa fa-star"></i></li>
-			      			<li><i class="fa fa-star"></i></li>
-			      			<li><i class="fa fa-star"></i></li>
-			      			<li><i class="fa fa-star-o"></i></li>
-			      		</ul>	
-				    </div>
-				    </div>
-				    <div class="carousel">
-				    	<div class="carousel-view">
-			      		<p class=" fun-text">“I love Apptyt ! I highly recommend it”</p>
-			      		<h5>ERIC CLAPTION</h5>
-			      		<ul>
-			      			<li><i class="fa fa-star"></i></li>
-			      			<li><i class="fa fa-star"></i></li>
-			      			<li><i class="fa fa-star"></i></li>
-			      			<li><i class="fa fa-star"></i></li>
-			      			<li><i class="fa fa-star-o"></i></li>
-			      		</ul>	
-				    </div>
-				    </div>
-				    <div class="carousel">
-				    	<div class="carousel-view">
-			      		<p class=" fun-text">“I love Apptyt ! I highly recommend it”</p>
-			      		<h5>ERIC CLAPTION</h5>
-			      		<ul>
-			      			<li><i class="fa fa-star"></i></li>
-			      			<li><i class="fa fa-star"></i></li>
-			      			<li><i class="fa fa-star"></i></li>
-			      			<li><i class="fa fa-star"></i></li>
-			      			<li><i class="fa fa-star-o"></i></li>
-			      		</ul>	
-				    </div>
-				    </div>
-				</div>
-			</div>
-		</section>
-		<!-- Section for the simple user interface -->
-		<section id="user-features" class="section user-interface">
-			<div class="container">
-				<h2 style="color:#fd5c63">For Foodies</h2>
-				<div class="row">
-					<div class="col-md-6 col-xs-12">
-						<img class="img-responsive" src="assets/img/triple.png">
-					</div>
-								<div class="col-md-6 col-xs-12 user-interface-blocks">
-						<div class="row interface-block">
-								<div class="col-md-2 col-xs-4 icon-circle">	
-									<img class="img-responsive" src="assets/icon/My place.png">
-								</div>
-								<div class="col-md-8 col-xs-6 para-zom">
-									<h4>Choose your restaurant</h4>
-									<p>Browse multiple restaurants and get information about them such as their menu</p>
-								</div>
-						</div>
+    <section id="download" class="download bg-primary text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <h2 class="section-heading">Are you curious yet?</h2>
+                    <p>If you're hungry download the app on any mobile device!</p>
+                    <div class="badges">
+                        <a class="badge-link" href="#"><img src="img/google-play-badge.svg" alt=""></a>
+                        <a class="badge-link" href="#"><img src="img/app-store-badge.svg" alt=""></a>
+                    </div>
+                    <p></br>Or maybe you're a restaurant owner, request a demo!</p>
+                    <a href="#newsletter" class="btn btn-outline btn-xl page-scroll">Request a demo!</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-						<div class="row interface-block">
-								<div class="col-md-2 col-xs-4 icon-circle">	
-									<img class="img-responsive" src="assets/icon/on the go.png">
-								</div>
-								<div class="col-md-8 col-xs-6 para-zom">
-									<h4>Order customization</h4>
-									<p>Customize your order entirely on your smartphone</p>
-								</div>
-						</div>
+    <section id="features" class="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="section-heading">
+                        <h2>For avid Foodies</h2>
+                        <p class="text-muted">Take full control over your dishes from the moment you order until the last piece</p>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="device-container">
+                        <div class="device-mockup iphone6 portrait white">
+                            <div class="device">
+                                <div class="screen">
+                                    <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
+                                    <img src="img/demo-screen-1.jpg" class="img-responsive" alt=""> </div>
+                                <div class="button">
+                                    <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="feature-item">
+                                    <i class="icon-screen-smartphone text-primary"></i>
+                                    <h3>Cuztomize your order</h3>
+                                    <p class="text-muted">Choose your order and customize it entirely on your smartphone</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="feature-item">
+                                    <i class="icon-location-pin text-primary"></i>
+                                    <h3>Choose your restaurant</h3>
+                                    <p class="text-muted">Browse multiple restaurants and get information about them such as their menu</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="feature-item">
+                                    <i class="icon-clock text-primary"></i>
+                                    <h3>Never wait in line</h3>
+                                    <p class="text-muted">Place your order directly and pay through the application, without any waiting</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="feature-item">
+                                    <i class="icon-user text-primary"></i>
+                                    <h3>Loyalty program</h3>
+                                    <p class="text-muted">Get coupons and discounts from your favorite spots</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-						<div class="row interface-block">
-								<div class="col-md-2 col-xs-4 icon-circle">	
-									<img class="img-responsive" src="assets/icon/Dedicated support.png">
-								</div>
-								<div class="col-md-8 col-xs-6 para-zom">
-									<h4>No waiting</h4>
-									<p>Place your order directly and pay through the application</p>
-								</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section> 
-		<!-- this is the for restaurants section -->
-		<section id="restaurant-features" class="section user-interface">
-			<div class="container">
-				<h2 style="color:#fd5c63">For restaurants</h2>
-				<div class="row">
-					<div class="col-md-6 col-xs-12">
-						<img class="img-responsive" src="assets/img/triple.png">
-					</div>
-					<div class="col-md-6 col-xs-12 user-interface-blocks">
-						<div class="row interface-block">
-								<div class="col-md-2 col-xs-4 icon-circle">	
-									<img class="img-responsive" src="assets/icon/Socially connect.png">
-								</div>
-								<div class="col-md-8 col-xs-6 para-zom">
-									<h4>Reduce staff cost</h4>
-									<p>Remove the need for extra employees and increase the productivity of current employees</p>
-								</div>
-						</div>
+    <section id="features-restaurant" class="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="section-heading">
+                        <h2>For passionate restaurant owners</h2>
+                        <p class="text-muted">Get organized to get customers</p>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="device-container">
+                        <div class="device-mockup ipad portrait white">
+                            <div class="device">
+                                <div class="screen">
+                                    <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
+                                    <img src="img/demo-screen-1.jpg" class="img-responsive" alt=""> </div>
+                                <div class="button">
+                                    <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="feature-item">
+                                    <i class="icon-screen-desktop text-primary"></i>
+                                    <h3>Easy staff management</h3>
+                                    <p class="text-muted">Organize your staff and your orders from your tablet or PC</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="feature-item">
+                                    <i class="icon-graph text-primary"></i>
+                                    <h3>Stats and analytics</h3>
+                                    <p class="text-muted">Increase revenue by Obtain valuable data</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="feature-item">
+                                    <i class="icon-book-open text-primary"></i>
+                                    <h3>Dynamic and Customizable menu</h3>
+                                    <p class="text-muted">Change your menu and its info on the fly</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="feature-item">
+                                    <i class="icon-support text-primary"></i>
+                                    <h3>Easy integration</h3>
+                                    <p class="text-muted">No additinal hardware or change in existing system needed to get it started</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-						<div class="row interface-block">
-								<div class="col-md-2 col-xs-4 icon-circle">	
-									<img class="img-responsive" src="assets/icon/graph chart increasing.png">
-								</div>
-								<div class="col-md-8 col-xs-6 para-zom">
-									<h4>Analytics</h4>
-									<p>Obtain valuable data that will increase your restaurant's profit</p>
-								</div>
-						</div>
+    <!--
+    <section class="cta">
+        <div class="cta-content">
+            <div class="container">
+                <h2>Stop waiting.<br>Start building.</h2>
+                <a href="#contact" class="btn btn-outline btn-xl page-scroll">Let's Get Started!</a>
+            </div>
+        </div>
+        <div class="overlay"></div>
+    </section> -->
 
+            <section id="newsletter" class="newsletter">
+            <div class="newsletter-container">
+                <div class="container">
+                    <div class="section-heading">
+                       <h2>Contact us</h2>
+                       <p class="text-muted">Write down your email and we will contact you right away!</p>
+                    </div>
+                    <div class="row newsletter-form">
+                        <form class="form-inline">
+                            <div class="form-group">
+                               <input type="email" class="form-control" id="email" placeholder="Your message">
+                               <button type="submit" class="btn btn-default">SEND</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section> 
 
-						<div class="row interface-block">
-								<div class="col-md-2 col-xs-4 icon-circle">	
-									<img class="img-responsive" src="assets/icon/graph chart increasing.png">
-								</div>
-								<div class="col-md-8 col-xs-6 para-zom">
-									<h4>Out-of-the-box functionality</h4>
-									<p>Setting up Apptyt for your restaurant does not require any change in existing procedures, all functionality
-									is additional</p>
-								</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section> 
-		<!-- This is the newsletter section -->
-		<section id="newsletter" class="newsletter">
-			<div class="newsletter-container">
-				<div class="container">
-					<h2>CONTACT US</h2>
-					<div class="row newsletter-form">
-				  		<form class="form-inline">
-						    <div class="form-group">
-							   <input type="email" class="form-control" id="email" placeholder="Your message">
-							   <button type="submit" class="btn btn-default">SEND</button>
-						    </div>
-						</form>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- Footer section -->
-		<section class="footer">
-			<div class="container">
-					<div class="row">
-					<!-- change the 6 to 12 to center it -->
-						<div class="col-md-3 col-xs-3">
-							<img class="img-responsive" src="assets/icon/apptytword.png">
-						</div>
-						<div class="col-md-6 col-xs-6 footer-icon">
-							<div class="social footer-social">
-									<ul>
-										<li><a href="#" class="fa fa-pinterest fa-2x" aria-hidden="true"></a></li>
-										<li><a href="#" class="fa fa-twitter fa-2x" aria-hidden="true"></a></li>
-										<li><a href="#" class="fa fa-linkedin fa-2x" aria-hidden="true"></a></li> 
-									</ul>
-							</div>
-						</div>
-					</div>
-			</div>
-		</section>
+    <section id="contact" class="contact bg-primary">
+        <div class="container">
+            <h2>Don't forget to follow us!</h2>
+            <ul class="list-inline list-social">
+                <li class="social-twitter">
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li class="social-facebook">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li class="social-google-plus">
+                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                </li>
+            </ul>
+        </div>
+    </section>
 
-	    <!-- Javascript files -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2017 Apptyt. All Rights Reserved.</p>
+            <ul class="list-inline">
+                <li>
+                    <a href="#">Privacy</a>
+                </li>
+                <li>
+                    <a href="#">Terms</a>
+                </li>
+                <li>
+                    <a href="#">FAQ</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
 
-		<script type="text/javascript" src="assets/js/jquery-3.1.1.min.js" ></script>
-		<script src="assets/js/bootstrap.min.js"></script>
-		<!-- Carousel script file -->
-		<script src="assets/js/owl.carousel.min.js"></script>
-		<!-- Custom script file -->
-		<script type="text/javascript" src="assets/js/main.js" ></script>
-	</body>
+    <!-- jQuery -->
+    <script src="lib/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/new-age.min.js"></script>
+
+</body>
+
 </html>
