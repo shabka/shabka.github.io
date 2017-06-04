@@ -69,7 +69,7 @@ p {
     transition: all .35s;
 }
 .navbar-default .navbar-header .navbar-brand {
-    color: #fd5c63;
+    color: #222;
 }
 .btn, .navbar-default .nav>li>a {
     font-family: Lato, Helvetica, Arial, sans-serif;
