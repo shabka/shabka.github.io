@@ -33,7 +33,7 @@ body {
 }
 
 .navbar-default .navbar-header .navbar-brand {
-	 font-family: Catamaran, Helvetica, Arial, sans-serif;
+     font-family: Catamaran, Helvetica, Arial, sans-serif;
     font-weight: 700;
     font-size: 20px;
     letter-spacing: 1px;
@@ -78,7 +78,7 @@ p {
     letter-spacing: 2px;
 }
 .navbar-default .navbar-header .navbar-brand:focus, .navbar-default .navbar-header .navbar-brand:hover {
-    color: #fcbd20;
+    color: #fd5c63;
 }
 .navbar-default .navbar-header .navbar-toggle {
     font-size: 12px;
@@ -517,4 +517,19 @@ img::-moz-selection {
 .features{
     padding-bottom: 0;
     border-bottom: 1px solid #dbdbdb;
+}
+/* Styler div to make webpage look better */
+.styler{
+    background-image: url(../img/chef-cooking.jpg);
+    background-size: 100% 100%;
+    background-color: rgba(0,0,0,0.6);
+    z-index: -1;
+    color: white;
+    text-align: center;
+    background-attachment: fixed;
+}
+.btn-default:hover{
+    color: #ffffff;
+    background-color: #fdcc52;
+    border-color:#ffffff;
 }
