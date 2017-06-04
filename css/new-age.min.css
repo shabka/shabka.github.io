@@ -533,3 +533,46 @@ img::-moz-selection {
     background-color: #fdcc52;
     border-color:#ffffff;
 }
+
+@media (min-width: 300px) 
+{
+        .form-inline .form-control{
+        width: 120px;
+        height: 30px;
+        font-size: 14px;
+    }
+
+    .form-inline .form-control{
+        width: 280px;
+        height: 40px;
+        font-size: 16px;
+    }
+    .newsletter input{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+    .newsletter button{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width: 600px) 
+{
+        .form-inline .form-control{
+        width: 420px;
+        height: 40px;
+        font-size: 16px;
+    }
+        .newsletter input{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: auto;
+    }
+    .newsletter button{
+        margin-left: 12px;
+        margin-right: auto;
+    }
+}
+
