@@ -33,11 +33,11 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-    
+    <!--<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
      <script>
+    $(document).ready(function(){     
     $("#emailForm").submit(function(e) {
-        // https://stackoverflow.com/questions/1960240/jquery-ajax-submit-form
     var url = "SERVER_URL"; // the script where you handle the form input.
 
     $.ajax({
@@ -51,7 +51,8 @@
          });
 
     e.preventDefault(); // avoid to execute the actual submit of the form.
-    });
+     });
+    });     
     </script>
 
 </head>
