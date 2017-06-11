@@ -38,7 +38,7 @@
      <script>
     $(document).ready(function(){     
     $("#emailForm").submit(function(e) {
-    var url = "SERVER_URL"; // the script where you handle the form input.
+    var url = "https://rest-backend-moatazs.c9users.io/restaurant/sendcontactemail/"; // the script where you handle the form input.
 
     $.ajax({
            type: "POST",
@@ -290,7 +290,7 @@
                     <div class="row newsletter-form">
                         <form class="form-inline" id="emailForm">
                             <div class="form-group">
-                               <input type="email" class="form-control" id="email" placeholder="Your message">
+                               <input type="email" class="form-control" id="email" name="email" placeholder="Your message">
                                <button type="submit" class="btn btn-default">Get in touch</button>
                             </div>
                         </form>
