@@ -579,3 +579,7 @@ img::-moz-selection {
     }
 }
 
+.screen {
+    background: white;
+}
+
