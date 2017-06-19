@@ -46,13 +46,13 @@
            data: $("#emailForm").serialize(), // serializes the form's elements.
            success: function()
            {
+                    alert("Your contact info has been successfully submitted! We will contact you shortly");
+                    document.getElementById("email").value = "";
                //alert(data); // show response from the php script.
            }
          });
 
     e.preventDefault(); // avoid to execute the actual submit of the form.
-    alert("Your contact info has been successfully submitted! We will contact you shortly");
-    document.getElementById("email").value = "";
      });
     });     
     </script>
